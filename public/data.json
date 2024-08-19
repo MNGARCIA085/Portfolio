@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "First Article",
+      "topic": "React",
+      "text": "This is the content of the first article."
+    },
+    {
+      "id": 2,
+      "title": "Second Article",
+      "topic": "JavaScript",
+      "text": "This is the content of the second article."
+    },
+    {
+        "id": 2,
+        "title": "Second Article",
+        "topic": "JavaScript",
+        "text": "This is the content of the second article."
+      },
+      {
+        "id": 2,
+        "title": "Second Article",
+        "topic": "JavaScript",
+        "text": "This is the content of the second article."
+      },
+      {
+        "id": 2,
+        "title": "Second Article",
+        "topic": "JavaScript",
+        "text": "This is the content of the second article."
+      },
+      {
+        "id": 2,
+        "title": "lAST",
+        "topic": "JavaScript",
+        "text": "This is the content of the second article."
+      }
+  ]
+  

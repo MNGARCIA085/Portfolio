@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "First Article",
+      "topic": "React",
+      "text": "This is the content of the first article.",
+      "image": "/images/scorpion.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Second Article",
+      "topic": "JavaScript",
+      "text": "This is the content of the second article.",
+      "image": "/images/scorpion.jpg"
+    },
+      {
+        "id": 2,
+        "title": "lAST",
+        "topic": "JavaScript",
+        "text": "tutorials",
+        "image": "/images/scorpion.jpg"
+      }
+  ]
+  
