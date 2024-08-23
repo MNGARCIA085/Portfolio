@@ -1,0 +1,16 @@
+.book-section {
+    display: flex;
+  }
+  
+  .book-content {
+    margin-left: 250px; /* Adjust based on sidebar width */
+    flex: 1;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .book-content {
+      margin-left: 0;
+    }
+  }
+  

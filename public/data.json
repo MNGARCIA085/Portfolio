@@ -2,13 +2,13 @@
     {
       "id": 1,
       "title": "First Article",
-      "topic": "React",
+      "topic": "IA",
       "text": "This is the content of the first article."
     },
     {
       "id": 2,
       "title": "Second Article",
-      "topic": "JavaScript",
+      "topic": "SW",
       "text": "This is the content of the second article."
     },
     {

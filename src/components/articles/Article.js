@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Home() {
+function Article() {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -40,6 +40,12 @@ function Home() {
     setCurrentPage(1);
   };
 
+  const resetFilters = () => {
+    setFilter({ title: '', topic: '' });
+    setFilteredData(data);
+    setCurrentPage(1);
+  };
+
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredData.slice(indexOfFirstItem, indexOfLastItem);
@@ -53,7 +59,7 @@ function Home() {
       {/* Filter Form */}
       <div className="mb-4">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <input
               type="text"
               name="title"
@@ -63,21 +69,28 @@ function Home() {
               onChange={handleFilterChange}
             />
           </div>
-          <div className="col-md-4">
-            <input
-              type="text"
+          <div className="col-md-3">
+            <select
               name="topic"
               className="form-control"
-              placeholder="Filter by topic"
               value={filter.topic}
               onChange={handleFilterChange}
-            />
+            >
+              <option value="">Select Topic</option>
+              <option value="sw">SW</option>
+              <option value="ia">IA</option>
+            </select>
           </div>
           <div className="col-md-4">
             <button className="btn btn-primary" onClick={applyFilters}>
               Apply Filters
             </button>
+            &nbsp; &nbsp;
+            <button className="btn btn-secondary" onClick={resetFilters}>
+              Reset Filters
+            </button>
           </div>
+          
         </div>
       </div>
       
@@ -112,4 +125,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Article;

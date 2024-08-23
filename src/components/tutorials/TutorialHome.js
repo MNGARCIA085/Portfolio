@@ -90,7 +90,9 @@ function Home() {
       <div className="row">
         {currentItems.map((item, index) => (
           <div key={index} className="col-md-4">
-            <div className="card mb-4" onClick={() => navigate(`/tutorial/${index}`)}>
+            <div className="card mb-4" onClick={() => navigate(`text/${item.link}`)}>
+             
+              
               <div className="card-body">
                 <h2 className="card-title">{item.title}</h2>
                 <h3 className="card-subtitle mb-2 text-muted">{item.topic}</h3>
@@ -99,17 +101,20 @@ function Home() {
 
                 <img src={item.image} className="card-img-top" alt={item.title} />
 
-                
-
-                <Link to={`/${item.text}/${index}`} className="btn btn-primary">
+                <br/>
+                <Link 
+                  to={`text/${item.link}`} 
+                  className="btn btn-primary"
+                  onClick={(e) => e.stopPropagation()}
+                >
                   Read More
                 </Link>
-
                 
 
-
+          
               </div>
             </div>
+
           </div>
         ))}
       </div>
