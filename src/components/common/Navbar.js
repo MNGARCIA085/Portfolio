@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">My Articles</Link>
+        <Link className="navbar-brand" to="/">My Personal Site</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -19,9 +19,7 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
+
 
             <li className="nav-item">
               <Link className="nav-link" to="/tutorials">Tutorials</Link>
@@ -30,6 +28,10 @@ function Navbar() {
 
             <li className="nav-item">
               <Link className="nav-link" to="/articles">Articles</Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/certifications">Certifications</Link>
             </li>
             
           </ul>

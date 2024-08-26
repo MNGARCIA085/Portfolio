@@ -6,9 +6,15 @@ const SimpleFooter = () => {
   return (
     <footer className="bg-light text-center py-3">
       <div className="container">
+        
+        
+        
         <p className="mb-0">
-          &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+          &copy; {new Date().getFullYear()} {/**Your Company. All rights reserved. */}
         </p>
+        
+        
+        
         <div className="mt-2">
           <a 
             href='https://github.com/MNGARCIA085' 
