@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Article() {
+function Certifications() {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(5);
+  const [itemsPerPage] = useState(8);
   const [filter, setFilter] = useState({ name: '', category: '' });
   const navigate = useNavigate();
 
@@ -41,7 +41,7 @@ function Article() {
   };
 
   const resetFilters = () => {
-    setFilter({ title: '', category: '' });
+    setFilter({ name: '', category: '' });
     setFilteredData(data);
     setCurrentPage(1);
   };
@@ -54,7 +54,9 @@ function Article() {
 
   return (
     <div className="container">
-      <h1 className="my-4">Certifications</h1>
+      <h2 className="my-4"><font color='#2874a6'><center>Certifications</center></font></h2>
+      <hr />
+      <br />
       
       {/* Filter Form */}
       <div className="mb-4">
@@ -90,24 +92,48 @@ function Article() {
               Reset Filters
             </button>
           </div>
-          
         </div>
       </div>
       
       {/* Card Rendering */}
       <div className="row">
-        {currentItems.map((item, index) => (
-          <div key={index} className="col-md-4">
-            <div className="card mb-4" onClick={() => navigate(`/certifications/${item.id}`)}>
-              <div className="card-body">
-                <h2 className="card-title">{item.name}</h2>
-                
-                <img src={item.image} className="card-img-top" alt={item.title} />
+        {currentItems.map((item, index) => {
+          // Dynamically require the image
+          const imagePath = (() => {
+            try {
+              return require(`../../images/${item.image}`);
+            } catch (error) {
+              console.error('Image not found:', item.image);
+              return require(`../../images/default.jpg`); // Fallback image
+            }
+          })();
 
+          return (
+            <div key={index} className="col-sm-6 col-md-4 col-lg-3">
+              <div 
+                className="card mb-4" 
+                onClick={() => navigate(`/certifications/${item.id}`)} 
+                style={{ height: '80%', overflow: 'hidden' }}
+              >
+                <div className="card-body d-flex flex-column justify-content-between">
+                  
+                  <h5 className="card-title text-center">
+                    {item.name}
+                  </h5>
+                  
+                  <center>
+                    <img 
+                      src={imagePath} 
+                      className="card-img-top img-fluid" 
+                      alt={item.title}
+                      style={{ width: '200px', height: '150px', objectFit: 'cover' }} 
+                    /> 
+                  </center>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
       
       {/* Pagination */}
@@ -126,4 +152,4 @@ function Article() {
   );
 }
 
-export default Article;
+export default Certifications;
