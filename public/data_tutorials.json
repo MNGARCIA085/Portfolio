@@ -3,23 +3,39 @@
       "id": 1,
       "title": "TDD",
       "topic": "React",
+      "category":"Article",
       "text": "This is the content of the first article.",
+      "tags": [
+          {"name": "FastAPI"},
+          {"name": "Machine Learning"}
+      ],
       "image": "/images/scorpion.jpg",
       "link": "TDD"
     },
     {
       "id": 2,
-      "title": "Second Article",
-      "topic": "JavaScript",
+      "title": "CI and TDD with Django",
+      "topic": "Software Development",
+      "category":"Tutorial",
       "text": "This is the content of the second article.",
+      "tags": [
+          {"name": "Django"},
+          {"name": "CI"},
+          {"name": "API REST"}
+      ],
       "image": "/images/scorpion.jpg",
       "link": "DjangoTDDCI"
     },
       {
         "id": 2,
-        "title": "lAST",
-        "topic": "JavaScript",
+        "title": "Deploy a Machine Learning Model with FastAPI",
+        "topic": "Machine Learning",
+        "category":"Tutorial",
         "text": "tutorials",
+        "tags": [
+          {"name": "FastAPI"},
+          {"name": "Machine Learning"}
+        ],
         "image": "/images/scorpion.jpg",
         "link": "DeployMLModel"
       }

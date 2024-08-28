@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Article from './components/articles/Article';
-import ArticleDetail from './components/articles/ArticleDetail';
 import Navbar from './components/common/Navbar';
 import About from './components/common/About';
 import TutorialHome from './components/tutorials/TutorialHome';
@@ -30,8 +28,6 @@ function App() {
              
             
             <Route path="/" element={<Home />} />
-            <Route path="/articles" element={<Article />} />
-            <Route path="/article/:id" element={<ArticleDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/certifications/:id" element={<CertificationDetails />} />

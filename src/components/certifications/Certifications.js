@@ -104,7 +104,7 @@ function Certifications() {
               return require(`../../images/${item.image}`);
             } catch (error) {
               console.error('Image not found:', item.image);
-              return require(`../../images/default.jpg`); // Fallback image
+              return require(`../../images/default.png`); // Fallback image
             }
           })();
 
@@ -125,9 +125,15 @@ function Certifications() {
                     <img 
                       src={imagePath} 
                       className="card-img-top img-fluid" 
-                      alt={item.title}
+                      title={item.credit}
+                      alt={item.name}
                       style={{ width: '200px', height: '150px', objectFit: 'cover' }} 
                     /> 
+                    
+                    <p style={{ fontSize: 'small', textAlign: 'center' }}>
+    
+  </p>
+
                   </center>
                 </div>
               </div>

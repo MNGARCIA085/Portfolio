@@ -151,10 +151,10 @@ jobs:
 
 
 
-            <center><h2><b><font color='red'>TDD and CI with Django</font></b></h2></center>
+            <center><h3><b><font color='red'>TDD and CI with Django</font></b></h3></center>
             <hr></hr>
 
-            <b><font color='blue'><h3>Table of Contents</h3></font></b><br></br>
+            <b><font color='blue'><h4>Table of Contents</h4></font></b><br></br>
 
             <a href="#inicio">1. What We'll Do</a> <br></br>
 
@@ -180,14 +180,14 @@ jobs:
                 <br></br> <br></br>
 
                
-                <a id="inicio"><b><font color='#086A87'><h4>1. What We'll Do</h4></font></b></a><br></br> 
+                <a id="inicio"><b><font color='#086A87'><h5>1. What We'll Do</h5></font></b></a><br></br> 
 
                 We will build a REST API in Django Rest Framework related to cars. Each car will have a brand and a model (keeping it simple as we want to focus mainly on TDD and the CI pipeline). <br></br>
                 The project's code can be found <a href="https://github.com/MNGARCIA085/Django--TDD--CI" target='_blanck15'>here</a>
 
                 <br></br> <br></br>
 
-                <a id="objetivos"><b><font color='#086A87'><h4>2. Objectives</h4></font></b></a><br></br> 
+                <a id="objetivos"><b><font color='#086A87'><h5>2. Objectives</h5></font></b></a><br></br> 
                     <ul>
                         <li>Practice creating REST APIs</li>
                         <li>Practice TDD</li>
@@ -198,7 +198,7 @@ jobs:
 
 
 
-                <a id="inicial"><b><font color='#086A87'><h4>3. Initial Project Setup</h4></font></b></a><br></br>
+                <a id="inicial"><b><font color='#086A87'><h5>3. Initial Project Setup</h5></font></b></a><br></br>
                 
 
                 
@@ -242,7 +242,7 @@ jobs:
 
 
 
-                <a id="pytest"><b><font color='#086A87'><h4>4. Pytest Configuration</h4></font></b></a><br></br>
+                <a id="pytest"><b><font color='#086A87'><h5>4. Pytest Configuration</h5></font></b></a><br></br>
 
                 We create the following folder structure. <br></br> <br></br>
 
@@ -266,7 +266,7 @@ jobs:
 
 
 
-                <a id="modelo"><b><font color='#086A87'><h4>5. First Model and URLs</h4></font></b></a><br></br>
+                <a id="modelo"><b><font color='#086A87'><h5>5. First Model and URLs</h5></font></b></a><br></br>
 
                 We create the model for cars. <br></br> <br></br>
 
@@ -312,7 +312,7 @@ jobs:
 
                 
 
-                <a id="api"><b><font color='#086A87'><h4>6. Development of the REST API</h4></font></b></a><br></br>
+                <a id="api"><b><font color='#086A87'><h5>6. Development of the REST API</h5></font></b></a><br></br>
 
                 We will implement the following endpoints: <br></br> <br></br>
 
@@ -390,7 +390,7 @@ jobs:
 
 
 
-        <a id="repo"><b><font color='#086A87'><h4>7. Creating a Repository on GitHub</h4></font></b></a><br></br>
+        <a id="repo"><b><font color='#086A87'><h5>7. Creating a Repository on GitHub</h5></font></b></a><br></br>
 
             We start by creating a .gitignore file in the root of the project with the following content: <br></br> <br></br>
 
@@ -410,7 +410,7 @@ jobs:
             git remote add origin https://github.com/username/repo-name.git <br></br>
             git push -u origin master <br></br> <br></br> <br></br>
 
-            <a id="ci"><b><font color='#086A87'><h4>8. Continuous Integration (CI)</h4></font></b></a><br></br>
+            <a id="ci"><b><font color='#086A87'><h5>8. Continuous Integration (CI)</h5></font></b></a><br></br>
 
             We will use GitHub Actions. <br></br> <br></br>
 
@@ -437,7 +437,7 @@ jobs:
 
                         <br></br> <br></br> <br></br>
 
-                        <a id="ref"><b><font color='#086A87'><h4>9. References</h4></font></b></a><br></br>
+                        <a id="ref"><b><font color='#086A87'><h5>9. References</h5></font></b></a><br></br>
 
                         <ul>
                             <li><a href="https://www.djangoproject.com/" target='_blanck20'>Django</a></li>

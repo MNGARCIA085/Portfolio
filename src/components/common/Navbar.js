@@ -22,13 +22,11 @@ function Navbar() {
 
 
             <li className="nav-item">
-              <Link className="nav-link" to="/tutorials">Tutorials</Link>
+              <Link className="nav-link" to="/tutorials">Articles & Tutorials</Link>
             </li>
 
 
-            <li className="nav-item">
-              <Link className="nav-link" to="/articles">Articles</Link>
-            </li>
+            
 
             <li className="nav-item">
               <Link className="nav-link" to="/certifications">Certifications</Link>

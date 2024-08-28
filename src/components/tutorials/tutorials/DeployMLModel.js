@@ -47,7 +47,7 @@ async def predict(file: UploadFile = File(...)) -> list[predictions]:
 const DeployMLModel = () => {
     return (
         <div class="container-fluid col-md-8 offset-2" >
-            <center><h2><b><font color='red'>Deploying a Machine Learning Model with Fast API</font></b></h2></center>
+            <center><h3><b><font color='red'>Deploying a Machine Learning Model with Fast API</font></b></h3></center>
         <hr></hr>
 
         <br></br> <br></br>
