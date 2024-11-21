@@ -20,7 +20,10 @@ import BookSection from "./components/book/BookSection";
 import LearningProjects from "./components/projects/LearningProjects";
 
 import RegressionWithDeepLearning from "./components/projects/pages/RegressionDeepLearning";
-
+import MachineLearning from "./components/projects/pages/MachineLearning";
+import TimeSeries from "./components/projects/pages/TimeSeries";
+import NLP from "./components/projects/pages/NLP";
+import TransferLearning from "./components/projects/pages/TransferLearning";
 
 function App() {
   return (
@@ -39,6 +42,10 @@ function App() {
             <Route path="/projects/learning" element={<LearningProjects />} />
 
             <Route path="/projects/learning/regression" element={<RegressionWithDeepLearning />} />
+            <Route path="/projects/learning/ML" element={<MachineLearning />} />
+            <Route path="/projects/learning/TS" element={<TimeSeries />} />
+            <Route path="/projects/learning/NLP" element={<NLP />} />
+            <Route path="/projects/learning/TL" element={<TransferLearning />} />
             
 
             <Route path="/tutorials/text/DeployMLModel" element={<DeployMLModel />} />

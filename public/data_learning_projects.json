@@ -20,20 +20,20 @@
 
     {
         "id":3,
-        "image":"solid.png",
+        "image":"time_series.png",
         "link":"https://github.com/MNGARCIA085/Time-Series-with-Deep-Leaning",
         "name":"Time Series with Deep Learning",
         "category":"IA",
-        "name_page":"classification"
+        "name_page":"TS"
     },
 
     {
         "id":2,
-        "image":"solid.png",
+        "image":"NLP.png",
         "link":"https://github.com/MNGARCIA085/Regression-with-deep-learning",
         "name":"NLP",
         "category":"IA",
-        "name_page":"classification"
+        "name_page":"NLP"
     },
 
     {
@@ -47,11 +47,11 @@
 
     {
         "id":2,
-        "image":"solid.png",
+        "image":"TL.png",
         "link":"https://github.com/MNGARCIA085/Transfer-Learning",
         "name":"Transfer Learning",
         "category":"IA",
-        "name_page":"classification"
+        "name_page":"TL"
     },
 
     {
@@ -69,7 +69,7 @@
         "link":"https://github.com/MNGARCIA085/Machine-Learning",
         "name":"Machine Learning",
         "category":"IA",
-        "name_page":"classification"
+        "name_page":"ML"
     },
 
     {
