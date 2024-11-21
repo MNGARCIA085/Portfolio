@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import './Navbar.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -19,19 +18,33 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
             </li>
-
-
             <li className="nav-item">
               <Link className="nav-link" to="/tutorials">Articles & Tutorials</Link>
             </li>
-
-
-            
-
             <li className="nav-item">
               <Link className="nav-link" to="/certifications">Certifications</Link>
             </li>
-            
+
+            {/* Dropdown Menu */}
+            <li className="nav-item dropdown">
+              <button
+                className="nav-link dropdown-toggle btn btn-link"
+                id="navbarDropdown"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </button>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link className="dropdown-item" to="/projects/learning">Learning</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="/projects/personal">Personal</Link>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>

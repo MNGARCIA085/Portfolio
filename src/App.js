@@ -17,6 +17,10 @@ import DjangoTDDCI from "./components/tutorials/tutorials/DjangoTDDCI";
 import BookSection from "./components/book/BookSection";
 
 
+import LearningProjects from "./components/projects/LearningProjects";
+
+import RegressionWithDeepLearning from "./components/projects/pages/RegressionDeepLearning";
+
 
 function App() {
   return (
@@ -31,6 +35,10 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/certifications/:id" element={<CertificationDetails />} />
+
+            <Route path="/projects/learning" element={<LearningProjects />} />
+
+            <Route path="/projects/learning/regression" element={<RegressionWithDeepLearning />} />
             
 
             <Route path="/tutorials/text/DeployMLModel" element={<DeployMLModel />} />

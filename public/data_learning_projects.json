@@ -1,0 +1,92 @@
+[
+    
+    {
+        "id":1,
+        "image":"regression.png",
+        "link":"https://github.com/MNGARCIA085/Regression-with-deep-learning",
+        "name":"Regression with deep learning",
+        "category":"IA",
+        "name_page":"regression"
+    },
+
+    {
+        "id":2,
+        "image":"solid.png",
+        "link":"https://github.com/MNGARCIA085/Classification-with-Deep-Learning",
+        "name":"Classification with deep learning",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":3,
+        "image":"solid.png",
+        "link":"https://github.com/MNGARCIA085/Time-Series-with-Deep-Leaning",
+        "name":"Time Series with Deep Learning",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":2,
+        "image":"solid.png",
+        "link":"https://github.com/MNGARCIA085/Regression-with-deep-learning",
+        "name":"NLP",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":2,
+        "image":"solid.png",
+        "link":"https://github.com/MNGARCIA085/Computer-Vision-with-Deep-Learning",
+        "name":"Computer vision with Deep Learning",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":2,
+        "image":"solid.png",
+        "link":"https://github.com/MNGARCIA085/Transfer-Learning",
+        "name":"Transfer Learning",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":2,
+        "image":"solid.png",
+        "link":"https://github.com/MNGARCIA085/IA-background",
+        "name":"IA background",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":2,
+        "image":"ML.png",
+        "link":"https://github.com/MNGARCIA085/Machine-Learning",
+        "name":"Machine Learning",
+        "category":"IA",
+        "name_page":"classification"
+    },
+
+    {
+        "id":2,
+        "image":"IA.png",
+        "link":"https://github.com/MNGARCIA085/AI-Papers-Implementations/tree/master",
+        "name":"AI-Papers-Implementations",
+        "category":"IA",
+        "name_page":"classification"
+    }
+
+   
+
+
+ 
+
+
+]
+
+
