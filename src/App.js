@@ -24,6 +24,8 @@ import MachineLearning from "./components/projects/pages/MachineLearning";
 import TimeSeries from "./components/projects/pages/TimeSeries";
 import NLP from "./components/projects/pages/NLP";
 import TransferLearning from "./components/projects/pages/TransferLearning";
+import ClassificationWithDeepLearning from "./components/projects/pages/ClassificationDeepLearning";
+import Background from "./components/projects/pages/Background";
 
 function App() {
   return (
@@ -41,7 +43,9 @@ function App() {
 
             <Route path="/projects/learning" element={<LearningProjects />} />
 
+            <Route path="/projects/learning/background" element={<Background />} />
             <Route path="/projects/learning/regression" element={<RegressionWithDeepLearning />} />
+            <Route path="/projects/learning/classification" element={<ClassificationWithDeepLearning />} />
             <Route path="/projects/learning/ML" element={<MachineLearning />} />
             <Route path="/projects/learning/TS" element={<TimeSeries />} />
             <Route path="/projects/learning/NLP" element={<NLP />} />

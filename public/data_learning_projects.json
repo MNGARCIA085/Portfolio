@@ -11,7 +11,7 @@
 
     {
         "id":2,
-        "image":"solid.png",
+        "image":"classification.png",
         "link":"https://github.com/MNGARCIA085/Classification-with-Deep-Learning",
         "name":"Classification with deep learning",
         "category":"IA",
@@ -29,7 +29,7 @@
 
     {
         "id":2,
-        "image":"NLP.png",
+        "image":"CONV1D.png",
         "link":"https://github.com/MNGARCIA085/Regression-with-deep-learning",
         "name":"NLP",
         "category":"IA",
@@ -56,11 +56,11 @@
 
     {
         "id":2,
-        "image":"solid.png",
+        "image":"codeAI.png",
         "link":"https://github.com/MNGARCIA085/IA-background",
         "name":"IA background",
         "category":"IA",
-        "name_page":"classification"
+        "name_page":"background"
     },
 
     {
