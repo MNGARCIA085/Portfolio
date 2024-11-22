@@ -26,6 +26,7 @@ import NLP from "./components/projects/pages/NLP";
 import TransferLearning from "./components/projects/pages/TransferLearning";
 import ClassificationWithDeepLearning from "./components/projects/pages/ClassificationDeepLearning";
 import Background from "./components/projects/pages/Background";
+import ComputerVision from "./components/projects/pages/ComputerVision";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
             <Route path="/projects/learning/TS" element={<TimeSeries />} />
             <Route path="/projects/learning/NLP" element={<NLP />} />
             <Route path="/projects/learning/TL" element={<TransferLearning />} />
+            <Route path="/projects/learning/ComputerVision" element={<ComputerVision />} />
             
 
             <Route path="/tutorials/text/DeployMLModel" element={<DeployMLModel />} />

@@ -1,19 +1,7 @@
 [
+    
     {
       "id": 1,
-      "title": "TDD",
-      "topic": "React",
-      "category":"Article",
-      "text": "This is the content of the first article.",
-      "tags": [
-          {"name": "FastAPI"},
-          {"name": "Machine Learning"}
-      ],
-      "image": "/images/scorpion.jpg",
-      "link": "TDD"
-    },
-    {
-      "id": 2,
       "title": "CI and TDD with Django",
       "topic": "Software Development",
       "category":"Tutorial",

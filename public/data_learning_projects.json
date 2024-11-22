@@ -38,11 +38,11 @@
 
     {
         "id":2,
-        "image":"solid.png",
+        "image":"convnet2.png",
         "link":"https://github.com/MNGARCIA085/Computer-Vision-with-Deep-Learning",
         "name":"Computer vision with Deep Learning",
         "category":"IA",
-        "name_page":"classification"
+        "name_page":"ComputerVision"
     },
 
     {
